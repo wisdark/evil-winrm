@@ -1,3 +1,21 @@
+### 2.3
+ - Fixed Invoke-Binary arguments
+ - Service function improved, now show privileges over the services
+
+### 2.2
+ - Added progress bar for file uploads/downloads
+ - New ascii art on menu
+ - Name of Dll loader refactored
+ - Help added to Invoke-Binary
+ - Fixed Invoke-Binary to accept any number of arguments separated by commas
+
+### 2.1
+ - Fixed required params for certificates auth
+ - Removed trailing spaces for better visualization
+ - Added command line option to disable colors
+ - Improved Windows compatibility
+ - Trap capturing to avoid accidental shell exit on Ctrl+C
+
 ### 2.0
  - Fix GSSAPI error
  - Docker support added
